@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-weight: bold;
+}
+
+h1{
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.inputLabel{
+    margin: 20px auto 5px;
+    max-width: fit-content;
+    font-size: large;
+}
+
+input{
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button{
+    display: block;
+    background-color:#f4d179 ;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 10px auto;
+    box-shadow:2px 2px rgba(60, 60, 60, 0.401);
+}
+
+#message{
+    color: rgb(189, 9, 9);
+    text-align: center;
+    margin-top: 10px;
+    font-size: larger;
+}
+
+#lista, #addAlbum, #information{
+    margin: auto;
+    max-width: fit-content;
+    background-color: #f4e979;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px black solid;
+    box-shadow:2px 2px rgba(60, 60, 60, 0.401);
+}
+
+#updateField{
+    background-color: #f4e979;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+li{
+    border-radius: 20px;
+    border: black 2px solid;
+    padding: 10px;
+    margin: 10px;
+    list-style-position: inside;
+}
+
+.data{
+    border-radius: 20px;
+    border: black 2px solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    input{
+        display: block;
+        margin: auto;
+    }
+  }
