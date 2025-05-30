@@ -403,7 +403,7 @@ async function listBlogs() {
         elem.innerHTML += `<p> kategória: ${blogs[i].category}</p>` ;
         elem.innerHTML += `<p> készítve: ${blogs[i].created}</p>` ;
         elem.innerHTML += `<p> utoljára módosítva: ${blogs[i].lastModified}</p>` ;
-        elem.innerHTML += `<p> tartalma: ${blogs[i].content}</p>`;
+        elem.innerHTML += `<p> tartalma: <br>${blogs[i].content}</p>`;
         elem.innerHTML += `<button class='modify' onclick='updateBlog()' value='${blogs[i].id}'>blog módosítása</button>`;
         elem.innerHTML += `<button class='deleteButton' onclick='deleteBlog()' value='${blogs[i].id}'>blog törlése</button>`;
         tartalom.innerHTML += `</div>`;
